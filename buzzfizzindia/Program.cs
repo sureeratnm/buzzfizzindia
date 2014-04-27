@@ -14,7 +14,7 @@ namespace buzzfizzindia
 
             int aa = 0;
             Program pm = new Program();
-            for (int j = 1; j <= 500; j++)
+            for (int j = 1; j <= 5000; j++)
             {
                 List<int> res = pm.GetIntArray(j);
                 int lenght = res.Count();
